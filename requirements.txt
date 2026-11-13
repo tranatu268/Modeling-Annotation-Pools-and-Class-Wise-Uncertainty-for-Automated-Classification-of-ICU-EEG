@@ -1,0 +1,12 @@
+# Install PyTorch first for your CUDA version: https://pytorch.org/get-started/locally/
+torch>=2.3
+timm>=1.0
+numpy>=1.26
+pandas>=2.1
+pyarrow>=15
+scipy>=1.11
+scikit-learn>=1.4
+pyyaml>=6
+matplotlib>=3.8
+pytest>=8
+tqdm>=4.66

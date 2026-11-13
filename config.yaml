@@ -1,0 +1,9 @@
+# Paths (relative to the repo root; forward slashes also work on Windows)
+data_dir: data/hms-harmful-brain-activity-classification   # Kaggle files: train.csv, train_eegs/, train_spectrograms/
+work_dir: work                                              # cache (~4.4 GB) and all results
+
+fs_out: 100     # EEG is band-passed 0.5-40 Hz then resampled 200 -> 100 Hz (Nyquist 50 Hz > 40 Hz)
+span_s: 60      # cached seconds per event: the 50 s label window +-5 s for time-shift augmentation
+win_s: 50       # model input length
+n_folds: 5
+seed: 42
